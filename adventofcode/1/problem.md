@@ -21,9 +21,8 @@ In this example, the calibration values of these four lines are 12, 38, 15, and 
 
 Consider your entire calibration document. What is the sum of all of the calibration values?
 
-Your puzzle answer was 55172.
 
---- Part Two ---
+## --- Part Two ---
 Your calculation isn't quite right. It looks like some of the digits are actually spelled out with letters: one, two, three, four, five, six, seven, eight, and nine also count as valid "digits".
 
 Equipped with this new information, you now need to find the real first and last digit on each line. For example:
