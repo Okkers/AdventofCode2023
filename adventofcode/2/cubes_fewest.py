@@ -5,6 +5,7 @@ with open("input.txt") as f:
 
 input_dict = process_input(data)
 
+# Loop through each game and record the maximum number of reds, greens and blues used.
 fewest_cubes = {}
 fewest_sum = 0
 for ind, game in enumerate(input_dict.keys()):
@@ -32,4 +33,4 @@ for ind, game in enumerate(input_dict.keys()):
         fewest_cubes[game] = [red_cnt*green_cnt*blue_cnt]
         fewest_sum += fewest_cubes[game][0]
 
-print("Answer to Puzzle 4:", fewest_sum)
+print("Answer for Puzzle 4:", fewest_sum)

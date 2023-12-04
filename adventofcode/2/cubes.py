@@ -20,11 +20,13 @@ def process_input(data):
         input_dict[plc[0]] = build
 
     return input_dict
-input_dict = process_input(data)
 
+input_dict = process_input(data)
 correct_dict = {}
 correct_games = []
 
+# Loop through each game and record the maximum number of reds, greens and blues used. 
+# If one is higher than the given bag, the game cannot be played
 for ind, game in enumerate(input_dict.keys()):
     games = input_dict[game]
     # [[]]
