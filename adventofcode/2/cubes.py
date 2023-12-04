@@ -1,7 +1,3 @@
-import numpy as np 
-import json 
-
-
 bag_amounts = { "red": 12,
                "green": 13,
                "blue": 14
@@ -43,12 +39,7 @@ for ind, game in enumerate(input_dict.keys()):
         if game not in correct_dict.keys():
             correct_dict[game] = True
     if correct_dict[game]:
-        correct_games.append(ind+1)
-        
+        correct_games.append(ind+1)  
 
 if __name__ == "__main__":
     print("Answer for Puzzle 3:", sum(correct_games))
-
-
-# print(input)
-    

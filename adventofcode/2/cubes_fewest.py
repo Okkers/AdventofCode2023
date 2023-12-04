@@ -1,4 +1,3 @@
-import numpy as np
 from cubes import process_input
 
 with open("input.txt") as f:
