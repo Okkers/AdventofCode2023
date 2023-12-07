@@ -33,4 +33,4 @@ for ind, game in enumerate(input_dict.keys()):
         fewest_cubes[game] = [red_cnt*green_cnt*blue_cnt]
         fewest_sum += fewest_cubes[game][0]
 
-print("Answer for Puzzle 4:", fewest_sum)
+print("Solution to Day 2 - part 2:", fewest_sum)

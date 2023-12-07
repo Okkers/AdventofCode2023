@@ -18,4 +18,4 @@ for card in data:
         earnings += [accu := f(accu, x) for x in value][-1]//2
 
 if __name__ == "__main__":
-    print("Answer for Puzzle 7:", earnings)
+    print("Solution to Day 4 - part 1:", earnings)

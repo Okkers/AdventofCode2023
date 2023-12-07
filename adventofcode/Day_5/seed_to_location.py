@@ -78,7 +78,7 @@ class Solve_Day_5(object):
         
 solution = Solve_Day_5(1)
 ans = solution.solve1()
-print("Answer for Puzzle 9:", ans)
+print("Solution to Day 5 - part 1:", ans)
 
 ans = solution.solve2()
-print("Answer for Puzzle 10:", ans)
+print("Solution to Day 5 - part 2:", ans)

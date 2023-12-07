@@ -13,4 +13,4 @@ def calibrate(text):
     return sum([int(calibrate_num_line(text[x])) for x in range(len(text))])
 
 if __name__ == "__main__":
-    print("Answer for Puzzle 1:", calibrate(input))
+    print("Solution to Day 1 - part 1:", calibrate(input))

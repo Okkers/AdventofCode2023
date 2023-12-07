@@ -17,4 +17,4 @@ while not(found):
     else:
         ind += 1
 
-print("Answer for Puzzle 12:", ans)
+print("Solution to Day 6 - part 2:", ans)

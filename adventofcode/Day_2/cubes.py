@@ -44,4 +44,4 @@ for ind, game in enumerate(input_dict.keys()):
         correct_games.append(ind+1)  
 
 if __name__ == "__main__":
-    print("Answer for Puzzle 3:", sum(correct_games))
+    print("Solution to Day 2 - part 1:", sum(correct_games))

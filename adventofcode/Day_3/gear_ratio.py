@@ -55,4 +55,4 @@ for s_ind in range(len(frame)):
             if cnt == 2:
                 gear_ratios.append(int(numbers[0])*int(numbers[1]))
 
-print("Answer for Puzzle 6:", sum(gear_ratios))
+print("Solution to Day 3 - part 2:", sum(gear_ratios))

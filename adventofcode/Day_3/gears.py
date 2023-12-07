@@ -40,4 +40,4 @@ while s_ind != len(frame):
     s_ind += 1
 
 if __name__ == "__main__":
-    print("Answer for Puzzle 5:", sum([int(x) for x in nums_to_add]))
+    print("Solution to Day 3 - part 1:", sum([int(x) for x in nums_to_add]))
