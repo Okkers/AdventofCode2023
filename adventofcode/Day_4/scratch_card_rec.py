@@ -25,4 +25,4 @@ for card_key in list(card_dict.keys())[::-1]:
     else:
         card_val[card_key] = 1 + sum([card_val[x] for x in referrals])
 
-print("Answer for Puzzle 8:", sum(list(card_val.values())))
+print("Solution to Day 4 - part 2:", sum(list(card_val.values())))

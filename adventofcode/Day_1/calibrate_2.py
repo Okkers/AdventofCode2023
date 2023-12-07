@@ -24,4 +24,4 @@ def convert_all(text):
     return [convert_char_to_num(text[x]) for x in range(len(text))]
 
 new_sentence = convert_all(input)
-print("Answer for Puzzle 2:", sum([int(calibrate_num_line(new_sentence[x])) for x in range(len(new_sentence))]))
+print("Solution to Day 1 - part 2:", sum([int(calibrate_num_line(new_sentence[x])) for x in range(len(new_sentence))]))

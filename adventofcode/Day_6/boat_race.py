@@ -20,4 +20,4 @@ f = lambda acc, x: acc *x
 accu = 1
 [accu := f(accu, x) for x in winnings]
 
-print("Answer for Puzzle 11:", accu)
+print("Solution to Day 6 - part 1:", accu)

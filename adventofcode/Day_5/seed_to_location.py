@@ -67,7 +67,7 @@ class Solve_Day_5(object):
                             elif seed_start >= rang[1] and seed_start <= rang[1]+rang[2]-1 and seed_end >= rang[1] and seed_end <= rang[1]+rang[2]-1:
                                 conversion.append([seed_start - rang[1] + rang[0], seed_end - rang[1]+rang[0]])
                                 check = True
-                    
+
                 seed_range = conversion
                 conversion = []
             locations.append(seed_range)
