@@ -63,3 +63,9 @@ while front != start:
                 break
 
 print("Solution to Day 10 - part 1:", int(np.ceil(cnt/2)))
+
+# Shoelace + Pick's
+area = sum(x1*y2-x2*y1 for (x1,y1), (x2,y2) in zip([*visited, visited[0]], [*visited, visited[0]][1:]))/2
+pts_count = int(abs(area)) - 0.5*len(visited) +1
+
+print("Solution to Day 10 - part 2:", pts_count)
