@@ -40,4 +40,4 @@ for mirror in data:
     elif valid_col:
         sym_count += cols
 
-print(sym_count)
+print("Solution to Day 13 - part 2:", sym_count)
