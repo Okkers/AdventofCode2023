@@ -1,0 +1,170 @@
+digraph {
+	mh [shape=box]
+	nd [shape=box]
+	xt [shape=box]
+	dp [shape=box]
+	pz [shape=box]
+	rp [shape=box]
+	jb [shape=box]
+	rj [shape=box]
+	hg [shape=box]
+	pt [shape=box]
+	pf [shape=box]
+	cv [shape=box]
+	zg [shape=box]
+	qn [shape=box]
+	kp [shape=box]
+	kg [shape=box]
+	sl [shape=box]
+	dz [shape=box]
+	hm [shape=box]
+	dc [shape=box]
+	xk [shape=box]
+	kr [shape=ellipse]
+	bq [shape=box]
+	sf [shape=box]
+	cx [shape=ellipse]
+	hr [shape=box]
+	ls [shape=box]
+	mf [shape=box]
+	vq [shape=box]
+	sx [shape=box]
+	gm [shape=ellipse]
+	jx [shape=box]
+	tz [shape=box]
+	jp [shape=box]
+	bb [shape=box]
+	zz [shape=box]
+	qr [shape=ellipse]
+	nc [shape=box]
+	kt [shape=box]
+	mg [shape=box]
+	dl [shape=box]
+	zs [shape=ellipse]
+	bf [shape=ellipse]
+	bh [shape=box]
+	kf [shape=ellipse]
+	fq [shape=box]
+	vl [shape=box]
+	qk [shape=ellipse]
+	fk [shape=box]
+	tj [shape=box]
+	gb [shape=box]
+	lf [shape=box]
+	vx [shape=box]
+	ff [shape=box]
+	broadcaster [shape=star]
+	vv [shape=box]
+	gf [shape=ellipse]
+	rz [shape=box]
+	mh -> rz
+	nd -> jx
+	xt -> cx
+	dp -> mh
+	pz -> zg
+	pz -> bf
+	rp -> jb
+	rp -> bf
+	jb -> bf
+	jb -> kp
+	rj -> xt
+	rj -> cx
+	hg -> dl
+	hg -> bf
+	pt -> gm
+	pt -> vv
+	pf -> xk
+	pf -> qr
+	cv -> jp
+	cv -> cx
+	zg -> bb
+	qn -> gm
+	qn -> bh
+	kp -> pz
+	kg -> gm
+	kg -> pt
+	sl -> rp
+	dz -> bf
+	dz -> dc
+	hm -> cx
+	hm -> tz
+	dc -> fk
+	xk -> qr
+	xk -> sf
+	kr -> gf
+	bq -> qr
+	bq -> mg
+	sf -> qr
+	cx -> ff
+	cx -> vx
+	cx -> zs
+	hr -> fq
+	hr -> gm
+	ls -> lf
+	ls -> gm
+	mf -> cx
+	mf -> sx
+	vq -> gm
+	sx -> cx
+	sx -> rj
+	gm -> kg
+	gm -> kf
+	gm -> fq
+	gm -> nc
+	gm -> lf
+	jx -> qr
+	jx -> zz
+	tz -> mf
+	tz -> cx
+	jp -> cx
+	jp -> kt
+	bb -> hg
+	bb -> bf
+	zz -> pf
+	zz -> qr
+	qr -> dp
+	qr -> bq
+	qr -> nd
+	qr -> rz
+	qr -> mg
+	qr -> qk
+	qr -> mh
+	nc -> gb
+	kt -> hm
+	kt -> cx
+	mg -> dp
+	dl -> bf
+	zs -> gf
+	bf -> dz
+	bf -> zg
+	bf -> kr
+	bf -> sl
+	bf -> fk
+	bf -> kp
+	bf -> dc
+	bh -> vq
+	bh -> gm
+	kf -> gf
+	fq -> qn
+	vl -> vx
+	vl -> cx
+	qk -> gf
+	fk -> sl
+	tj -> nd
+	tj -> qr
+	gb -> ls
+	gb -> gm
+	lf -> hr
+	vx -> cv
+	ff -> vl
+	ff -> cx
+	broadcaster -> kg
+	broadcaster -> dz
+	broadcaster -> ff
+	broadcaster -> bq
+	vv -> nc
+	vv -> gm
+	rx [shape=star]
+	gf -> rx
+	rz -> tj
+}
