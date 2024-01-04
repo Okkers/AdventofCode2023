@@ -1,16 +1,10 @@
-import os
-os.environ["PATH"] += os.pathsep + 'D:/Program Files (x86)/Graphviz2.38/bin/'
 from math import lcm
 from queue import Queue
 from collections import defaultdict
 from itertools import count
-import graphviz
 
 module_table = {}
 q = Queue()
-dot = graphviz.Digraph(format='png')
-shape_table = {'broadcaster': 'star', 'flipflop': 'box', 'conjunction': 'ellipse'}
-
 
 class Module:
     def __init__(self, name, m_type):
@@ -20,7 +14,6 @@ class Module:
         self.outputs = []
         self.flip_state = False
         self.conjunction_memory = defaultdict(bool)
-        dot.node(name, shape=shape_table[m_type])
 
     def __repr__(self):
         return self.name
@@ -60,12 +53,10 @@ with open('input.txt', 'r') as f:
         for output in right.split(', '):
             if output not in module_table:
                 module_table[output] = Module(output, 'broadcaster')
-            dot.edge(m.name, output)
             output_module = module_table[output]
             m.outputs.append(output_module)
             output_module.inputs.append(m)
 
-# part 1
 broadcaster = module_table['broadcaster']
 pulses = [0,0]
 nodes = {}
@@ -96,7 +87,6 @@ def press_button(count, part):
 # part 1
 for i in range(1000):
     press_button(i, 1)
-
 print("Solution to Day 20 - part 1:", pulses[0]*pulses[1])
 
 # part 2
@@ -107,5 +97,4 @@ for presses in count(1):
     ans = press_button(presses, 2)
     if type(ans) == dict:
         break
-
 print("Solution to Day 20 - part 2:", lcm(*list(ans.values())))
